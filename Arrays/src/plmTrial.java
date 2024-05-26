@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class plm6 {
+public class plmTrial {
     public static void main(String[] args) {
         int[] candies = {2,3,5,1,3};
         int extraCandies = 3;
@@ -8,7 +8,7 @@ public class plm6 {
         List<Boolean> output = kidsWithCandies(candies, extraCandies);
 
         for (int i = 0; i < output.toArray().length; i++) {
-            System.out.print(output[i]);
+            System.out.print(output);
         }
     }
 
